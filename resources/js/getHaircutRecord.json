@@ -1,0 +1,19 @@
+{
+	"action": null,
+	"status": null,
+	"total": null,
+	"crBy": null,
+	"crId": null,
+	"bizUnit": "PB",
+	"ccyCode": "HKD",
+	"haircutRatio": 100,
+	"crDt": null,
+	"verifyDt": null,
+	"verifyBy": null,
+	"approveDt": null,
+	"approveBy": null,
+	"createDt": null,
+	"createBy": null,
+	"bfHaircutRatio": null,
+	"userId": null
+}

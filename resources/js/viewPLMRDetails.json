@@ -1,0 +1,17 @@
+
+[{
+	"ruleId": "rule001",
+	"ruleDesc": "Rule 001",
+	"action": "V|E|D",
+	"limitType": "ALL",
+	"prodType": "Bond",
+	"entity": "ALL",
+	"Acct": null,
+	"client": "Wong Ching(XREF8)",
+	"groupType": null,
+	"group": null,
+	"limitCcy": "HKD",
+	"limitAmt": "20000",
+	"firstWarn": "70%",
+	"secondWarn": "90%"
+}]

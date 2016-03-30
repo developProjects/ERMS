@@ -1,0 +1,51 @@
+[{
+	"root": {
+		"data": {
+			"lmtTypeCode": "LEE",
+			"parentLmtTypeCode": null,
+			"lmtTypeDesc": "LEE LIMIT",
+			"lmtTypeHierLvlId": "1",
+			"lmtTypeHierLvlIdFormattedCssClass": "level1"
+		},
+		"parentID": null,
+		"spriteCssClass": "level1",
+		"expanded": true,
+		"items": [{
+			"data": {
+				"lmtTypeCode": "DVP",
+				"parentLmtTypeCode": "LEE",
+				"lmtTypeDesc": "DVP LIMIT",
+				"lmtTypeHierLvlId": "2",
+				"lmtTypeHierLvlIdFormattedCssClass": "level2"
+			},
+			"parentID": "LEE",
+			"spriteCssClass": "level2",
+			"expanded": false,
+			"items": null
+		}, {
+			"data": {
+				"lmtTypeCode": "LOAN",
+				"parentLmtTypeCode": "LEE",
+				"lmtTypeDesc": "LOAN LIMIT",
+				"lmtTypeHierLvlId": "2",
+				"lmtTypeHierLvlIdFormattedCssClass": "level2"
+			},
+			"parentID": "LEE",
+			"spriteCssClass": "level2",
+			"expanded": true,
+			"items": [{
+				"data": {
+					"lmtTypeCode": "MARLOAN",
+					"parentLmtTypeCode": "LOAN",
+					"lmtTypeDesc": "MARGIN LOAN LIMIT",
+					"lmtTypeHierLvlId": "3",
+					"lmtTypeHierLvlIdFormattedCssClass": "level3"
+				},
+				"parentID": "LOAN",
+				"spriteCssClass": "level3",
+				"expanded": false,
+				"items": null
+			}]
+		}]
+	}
+}]

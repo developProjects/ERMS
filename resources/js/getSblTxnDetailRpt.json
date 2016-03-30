@@ -1,0 +1,22 @@
+[{
+	"id": {
+		"txnDate": 1456675200000,
+		"txnId": "1",
+		"stockCode": "23"
+	},
+	"stockName": "2",
+	"aeCode": "3",
+	"borrowerCustIdName": "4",
+	"lenderCustIdName": "5",
+	"activityType": "9",
+	"stockValue": 7,
+	"stockQty": 8,
+	"loanValue": 9,
+	"marginReqRatio": 10,
+	"feeRatio": 11,
+	"lastUpdateBy": "12",
+	"lastUpdateDt": -2198563552000,
+	"stockCode": "23",
+	"txnDate": 1456675200000,
+	"txnId": "1"
+}]

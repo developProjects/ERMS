@@ -1,0 +1,17 @@
+[
+{"guarId":"111111","limitType":"A","facId":"15498461","guarName":"ABC","relWithBwr":"NA","guarDomicile":"HK","guarAddr":"HK","creditSupScope":"NA","guarCollAmtCapCcy":"HKD","guatColAmtCap":"10000","guarExpDate":"5/1/2015","noticePeriod":"50"},
+{"guarId":"111112","limitType":"A","facId":"15498462","guarName":"CDF","relWithBwr":"NA","guarDomicile":"US","guarAddr":"US","creditSupScope":"NA","guarCollAmtCapCcy":"HKD","guatColAmtCap":"20000","guarExpDate":"5/1/2015","noticePeriod":"50"},
+{"guarId":"111113","limitType":"A","facId":"15498463","guarName":"FGB","relWithBwr":"NA","guarDomicile":"HK","guarAddr":"HK","creditSupScope":"NA","guarCollAmtCapCcy":"HKD","guatColAmtCap":"30000","guarExpDate":"5/1/2015","noticePeriod":"5"},
+{"guarId":"111114","limitType":"A","facId":"15498464","guarName":"GDS","relWithBwr":"NA","guarDomicile":"US","guarAddr":"US","creditSupScope":"NA","guarCollAmtCapCcy":"HKD","guatColAmtCap":"30000","guarExpDate":"5/1/2015","noticePeriod":"55"},
+{"guarId":"111115","limitType":"A","facId":"15498465","guarName":"SDS","relWithBwr":"NA","guarDomicile":"US","guarAddr":"US","creditSupScope":"NA","guarCollAmtCapCcy":"HKD","guatColAmtCap":"40000","guarExpDate":"5/1/2015","noticePeriod":"11"},
+{"guarId":"","limitType":"","facId":"","guarName":"","relWithBwr":"","guarDomicile":"","guarAddr":"","creditSupScope":"","guarCollAmtCapCcy":"","guatColAmtCap":"","guarExpDate":"","noticePeriod":""},
+
+
+{"guarId":"111116","limitType":"A","facId":"15498464","guarName":"GDS","relWithBwr":"NA","guarDomicile":"US","guarAddr":"US","creditSupScope":"NA","guarCollAmtCapCcy":"HKD","guatColAmtCap":"30000","guarExpDate":"5/1/2015","noticePeriod":"55"},
+{"guarId":"111117","limitType":"A","facId":"15498465","guarName":"SDS","relWithBwr":"NA","guarDomicile":"US","guarAddr":"US","creditSupScope":"NA","guarCollAmtCapCcy":"HKD","guatColAmtCap":"40000","guarExpDate":"5/1/2015","noticePeriod":"11"},
+{"guarId":"111118","limitType":"","facId":"","guarName":"","relWithBwr":"","guarDomicile":"","guarAddr":"","creditSupScope":"","guarCollAmtCapCcy":"","guatColAmtCap":"","guarExpDate":"","noticePeriod":""},
+
+{"guarId":"111119","limitType":"A","facId":"15498464","guarName":"GDS","relWithBwr":"NA","guarDomicile":"US","guarAddr":"US","creditSupScope":"NA","guarCollAmtCapCcy":"HKD","guatColAmtCap":"30000","guarExpDate":"5/1/2015","noticePeriod":"55"},
+{"guarId":"111120","limitType":"A","facId":"15498465","guarName":"SDS","relWithBwr":"NA","guarDomicile":"US","guarAddr":"US","creditSupScope":"NA","guarCollAmtCapCcy":"HKD","guatColAmtCap":"40000","guarExpDate":"5/1/2015","noticePeriod":"11"},
+{"guarId":"111121","limitType":"","facId":"","guarName":"","relWithBwr":"","guarDomicile":"","guarAddr":"","creditSupScope":"","guarCollAmtCapCcy":"","guatColAmtCap":"","guarExpDate":"","noticePeriod":""}
+]

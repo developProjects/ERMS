@@ -1,0 +1,106 @@
+[
+	{
+		"limitType":1,
+		"text":"Overall LEE Limit",
+		"spriteCssClass":"level1",
+		"expanded": true,
+		"items":[
+			{
+				"limitType":2,
+				"text":"PreSettlement Limit",
+				"spriteCssClass":"level2",
+				"expanded": true,
+				"items":[
+					{
+						"limitType":3,
+						"text":"PME Limit",
+						"spriteCssClass":"level4"
+					},
+					{
+						"limitType":4,
+						"text":"Bond Repo Limit",
+						"spriteCssClass":"level4"
+					}
+				]
+			},
+			{
+				"limitType":5,
+				"text":"Trading Limit",
+				"spriteCssClass":"level2",
+				"expanded": true,
+				"items":[
+					{
+						"limitType":6,
+						"text":"SBL Borrowing Limit",
+						"spriteCssClass":"level4"
+					}
+				]
+			},
+			{
+				"limitType":7,
+				"text":"Omnibus Limit",
+				"spriteCssClass":"level2",
+				"expanded": true,
+				"items":[
+					{
+						"limitType":8,
+						"text":"Loan Limit",
+						"spriteCssClass":"level3",
+						"expanded": true,
+						"items":[
+							{
+								"limitType":9,
+								"text":"Future Margin Deposit",
+								"spriteCssClass":"level4"
+							},
+							{
+								"limitType":10,
+								"text":"Repo Loan Deposit",
+								"spriteCssClass":"level4"
+							}
+						]
+					},
+					{
+						"limitType":11,
+						"text":"T+N Limit",
+						"spriteCssClass":"level3",
+						"expanded": true,
+						"items":[
+							{
+								"limitType":12,
+								"text":"DVP Limit",
+								"spriteCssClass":"level4"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"limitType": 13,
+		"text": "Leveraged Deposit",
+		"spriteCssClass": "level1",
+		"expanded": true
+	}, {
+		"limitType": 14,
+		"text": "Insurance Premimum Financing Limit",
+		"spriteCssClass": "level1",
+		"expanded": true
+	}, {
+		"limitType": 15,
+		"text": "SBL Lending Limit",
+		"spriteCssClass": "level1",
+		"expanded": true
+	}, {
+		"limitType": 16,
+		"text": "Stock Limit",
+		"spriteCssClass": "level1",
+		"expanded": true
+	}, {
+		"limitType": 17,
+		"text": "Bond Limit",
+		"spriteCssClass": "level1",
+		"expanded": true
+	}
+]

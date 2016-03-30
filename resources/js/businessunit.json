@@ -1,0 +1,14 @@
+ [
+ 	{ "text": "Default", "value": "" },
+ 	{ "text": "PB", "value": "PB" },
+ 	{ "text": "ESR-ISD", "value": "ESR-ISD" },
+ 	{ "text": "ESR-IST", "value": "ESR-IST" },
+ 	{ "text": "ESR-FIP", "value": "ESR-FIP" },
+ 	{ "text": "ESR-PM", "value": "ESR-PM" },
+ 	{ "text": "F&t", "value": "F&t" },
+ 	{ "text": "ESR-ED", "value": "ESR-ED" },
+ 	{ "text": "FP", "value": "FP" },
+ 	{ "text": "GC", "value": "GC" },
+ 	{ "text": "ALL", "value": "ALL" }
+ 	
+ ]

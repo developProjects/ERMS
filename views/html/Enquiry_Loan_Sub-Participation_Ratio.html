@@ -1,0 +1,328 @@
+<html lang="en">
+
+	<meta http-equiv="Content-Style-Type" content="text/css">
+    <meta http-equiv="Content-Script-Type" content="text/javascript">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script type="text/javascript" src="js/validation.js"></script>
+    
+    <!-- General layout Style -->
+    <link href="css/layout.css" rel="stylesheet" type="text/css">
+
+    <!-- Kendo UI lib -->
+    <link rel="stylesheet" href="css/kendo.common.min.css">
+    <link rel="stylesheet" href="css/kendo.rtl.min.css">
+    <link rel="stylesheet" href="css/kendo.default.min.css">
+    <link rel="stylesheet" href="css/kendo.dataviz.min.css">
+    <link rel="stylesheet" href="css/kendo.dataviz.default.min.css">
+    <link rel="stylesheet" href="css/kendo.mobile.all.min.css">
+
+    <!-- jQuery JavaScript -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- Kendo UI combined JavaScript -->
+    <script src="js/kendo.all.min.js"></script>
+
+    <!-- <head>Enquiry Loan Sub-Participation Ratio</head> -->
+
+ 	<script>
+	        $(document).ready(function () {
+
+	        	$("#menu1").kendoMenu({
+	        		animation: {open: {effects: "slideIn:down"}}
+	        	});
+				$("#menu2").kendoMenu({
+	        		animation: {open: {effects: "slideIn:down"}}
+	        	});
+				$("#menu3").kendoMenu({
+	        		animation: {open: {effects: "slideIn:down"}}
+	        	});
+				$("#menu4").kendoMenu({
+	        		animation: {open: {effects: "slideIn:down"}}
+	        	});
+				$("#menu5").kendoMenu({
+	        		animation: {open: {effects: "slideIn:down"}}
+	        	});
+				$("#menu6").kendoMenu({
+	        		animation: {open: {effects: "slideIn:down"}}
+	        	});
+				$("#menu7").kendoMenu({
+	        		animation: {open: {effects: "slideIn:down"}}
+	        	});
+
+	        	var objPastToPager = null;
+	        	var initialLoad = true;
+
+	        	 $("#submitBtn").kendoButton({
+	        	     click: function(e) {
+
+	        	     	/* Delete rows */
+	        	     	var oRows = document.getElementById('listTable').getElementsByTagName('tr');
+	        	     	var iRowCount = oRows.length;
+
+	        	     	for (var i = 0; i < iRowCount; i++) {
+        	                 		$('#tabRow'+i).remove();
+	                 	};
+	                 	
+	                 	 /* Open spinner */
+	        	     	 openModal();
+	        	         var xmlhttp = new XMLHttpRequest();
+	        	         var url = "http://localhost:8080?function=enquiry_loan_sub_participation_ratio&acct_no="+document.getElementById("acct_no").value+"&credit_name=%"+document.getElementById("credit_name").value+"%";
+
+	        	          xmlhttp.onreadystatechange=function() {
+	        	             if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+			        	     	
+	        	             	var JSONResponse = xmlhttp.responseText;
+        	                 	var jsonObj = $.parseJSON(JSONResponse);
+        	                 	objPastToPager = jsonObj;
+
+        	                 	/* Close spinner */
+        	                 	closeModal();
+
+     		        	     	/* Delete rows */
+     		        	     	var oRows = document.getElementById('listTable').getElementsByTagName('tr');
+     		        	     	var iRowCount = oRows.length;
+
+     		        	     	for (var i = 0; i < iRowCount+1; i++) {
+     	        	            	$('#tabRow'+i).remove();
+     		                 	};
+        	                 	/* List style 1 */
+
+        	                 	var dataSource = new kendo.data.DataSource({
+             	  					transport: {
+             	  						read: {
+             	  							url: "http://localhost:8080?function=enquiry_loan_sub_participation_ratio&acct_no="+document.getElementById("acct_no").value+"&credit_name=%"+document.getElementById("credit_name").value+"%",
+             	  							dataType: "json",
+             	  						}
+             	  					},
+             	  				change: function(e) {
+         	  						openModal();
+		  		        	     	var oRows = document.getElementById('listTable').getElementsByTagName('tr');
+		  		        	     	var iRowCount = oRows.length;
+
+		  		        	     	for (var i = 0; i < iRowCount+1; i++) {
+		  	        	            	$('#tabRow'+i).remove();
+		  		                 	};
+             	  					  var view = this.view();
+             	  					  for (var i = 0; i < jsonObj.length; i++) {
+             	  					  	if(view[i].Credit_Group == "null"){
+             	  					  		continue;
+             	  					  	}else{
+             	  					  	$('#list tr:last').before('<tr style=\"font-size:13px;\" id="tabRow'+i+'"><td>'+view[i].Credit_Group+'&nbsp;&nbsp;</td><td>'+view[i].Client_Name+'&nbsp;&nbsp;</td><td>'+view[i].Source_System+'&nbsp;&nbsp;</td><td>'+view[i].Account_No+'&nbsp;&nbsp;</td><td>'+view[i].Sub_Acc+'&nbsp;&nbsp;</td><td>'+view[i].Account_Name+'&nbsp;&nbsp;</td><td>'+view[i].Acc_Entity+'&nbsp;&nbsp;</td><td>'+view[i].Limit_Type+'</td></tr>');
+             	  					  	}
+             	  					  };
+             	  					  $("#countRow").text("No. of Record : " + view.length);
+             	  					  console.log(view.length);
+             	  					  closeModal();
+             	  					},
+             	  					serverPaging: true,
+             	  					pageSize: 5,
+             	  					pageNumber: 3
+        	                 	});
+
+        	                 	$("#pager1").kendoPager({
+        	                 	  dataSource: dataSource,
+        	                 	  info: false
+        	                 	});
+
+        	                 	dataSource.read();
+        	                 	/* List style 2 */
+
+        	                 	$(function(){
+        	                 	  var data = objPastToPager
+        	                 	  $('#MyGrid').kendoGrid({
+        	                 	    dataSource: {
+        	                 	      data: data,
+        	                 	      pageSize: 1,
+        	                 	      requestStart: function () {
+        	                 	          if (initialLoad) 
+        	                 	              kendo.ui.progress($("#invoiceGroupGrid"), true);
+        	                 	      },
+        	                 	      requestEnd: function () {
+        	                 	          if(initialLoad)
+        	                 	              kendo.ui.progress($("#invoiceGroupGrid"), false);
+        	                 	          initialLoad = false;
+        	                 	      },
+        	                 	      resizable: true,
+        	                 	      width: 1000,
+        	                 	      schema: {
+        	                 	        model: {
+        	                 	          fields: {
+        	                 	          	Credit_Group: {type: "string"},
+        	                 	          	Client_Name: {type: "string"},
+        	                 	          	Source_System: {type: "string"},
+        	                 	          	Account_No: {type: "string"},
+        	                 	          	Sub_Acc: {type: "string"},
+        	                 	          	Account_Name: {type: "string"},
+        	                 	          	Acc_Entity: {type: "string"},
+        	                 	          	Limit_Type: {type: "string"}
+        	                 	          }
+        	                 	        }
+        	                 	      }
+        	                 	    },
+        	                 	    filterable: true,
+        	                 	    columnMenu: false,
+        	                 	    sortable: true,
+        	                 	    pageable: true,
+        	                 	    scrollable: true,
+        	                 	    columns: [ 
+        	                 	    { field: "Credit_Group" ,width: 120},
+        	                 	    { field: "Client_Name" ,width: 120},
+        	                 	    { field: "Source_System" ,width: 120},
+        	                 	    { field: "Account_No" ,width: 120},
+        	                 	    { field: "Sub_Acc" ,width: 120},
+        	                 	    { field: "Account_Name" ,width: 120},
+        	                 	    { field: "Acc_Entity" ,width: 120},
+        	                 	    { field: "Limit_Type" ,width: 120}
+        	                 	    ],
+        	                 	    dataBound: function(e) {
+        	                 	      displayFilterResults();
+        	                 	    }
+        	                 	  });
+        	                 	});
+	        	             }
+	        	             var dataSource = new kendo.data.DataSource({
+	        	               data: objPastToPager,
+	        	               pageSize: 1
+	        	             });
+
+	        	             $("#pager").kendoPager({
+	        	               dataSource: dataSource,
+	        	               info: false
+	        	             });
+
+	        	             dataSource.read();
+	        	         }
+
+	        	         xmlhttp.open("GET", url, true);
+	        	         xmlhttp.send();
+	        	     }
+	        	 });
+
+	        	 $("#resetBtn").kendoButton();
+	        	 $("#exportBtn").kendoButton();
+        	}
+        );
+
+	function displayFilterResults() {
+	  // Gets the data source from the grid.
+	  var dataSource = $("#MyGrid").data("kendoGrid").dataSource;
+	  
+	  // Gets the filter from the dataSource
+	     var filters = dataSource.filter();
+	     
+	     // Gets the full set of data from the data source
+	     var allData = dataSource.data();
+	     
+	     // Applies the filter to the data
+	     var query = new kendo.data.Query(allData);
+	     var filteredData = query.filter(filters).data;
+	     
+	     // Output the results
+	     $('#FilterCount').html(filteredData.length);
+	     $('#TotalCount').html(allData.length);
+	     $('#FilterResults').html('');
+	     $.each(filteredData, function(index, item){
+	       $('#FilterResults').append('<li>'+item.Site+' : '+item.Visitors+'</li>')
+	     });
+	}
+	function openModal() {
+	     document.getElementById('modal').style.display = 'block';
+	     document.getElementById('modal2').style.display = 'block';
+	}
+
+	function closeModal() {
+	    document.getElementById('modal').style.display = 'none';
+	    document.getElementById('modal2').style.display = 'none';
+	}
+
+    </script>
+
+	<body>
+
+		<script type="text/javascript" src="js/header.js"></script>
+		<div style="background-color:pink; width:1000">Enquiry Loan Sub-Participation Ratio</div>
+		<br>
+
+		<table id="listTable" width:"1000" style="background-color:#ADD8E6" cellpadding="0" cellspacing="0">
+			<tr>
+				<td colspan="4" style="background-color:#0000FF; width:1000">(+) Filter Criteria</td>
+			</tr>
+			<tr>
+				<td><br></td>
+			</tr>
+			<tr>
+				<td>Account No.</td>
+				<td><input id="acct_no" type="text"/></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Credit Group</td>
+				<td><input type="text"/></td>
+				<td>Credit Name</td>
+				<td><input id="credit_name" type="text"/></td>
+			</tr>
+			<tr>
+				<td>Facility ID</td>
+				<td><input type="text"/></td>
+				<td>Loan ID</td>
+				<td><input type="text"/></td>
+			</tr>
+			<tr>
+				<td><br></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>
+					<button id="submitBtn"  style="background:blue; color:white" type="button">Submit</button>
+					<button id="resetBtn" type="button">Reset</button>
+					<button id="exportBtn" type="button">Export</button>
+				</td>
+			</tr>
+			<tr></tr>
+			<tr></tr>
+		</table>
+		<br>
+		<table id="list" width="1000" style="overflow-y:scroll" max-height="500" cellpadding="0" cellspacing="0">
+			<tr style="background-color:#5A2727; color:white">
+				<td colspan="8">
+					Result
+				</td>
+			</tr>
+			<!-- <tbody> -->
+			<tr style="background-color:#B54D4D; font-size:13px; color:white">
+				<td>&nbsp;Credit_Group&nbsp;</td>
+				<td>&nbsp;Client_Name&nbsp;</td>
+				<td>&nbsp;Source_System&nbsp;</td>
+				<td>&nbsp;Account_No&nbsp;</td>
+				<td>&nbsp;Sub_Acc&nbsp;</td>
+				<td>&nbsp;Account_Name&nbsp;</td>
+				<td>&nbsp;Acc_Entity&nbsp;</td>
+				<td>&nbsp;Limit_Type&nbsp;</td>
+			</tr>
+			<tr>
+				<td colspan="8">
+					<div id="modal" align="center" style="display:none;">
+			            <img id="loader" src="images/ajax-loader.gif" />
+			        </div>
+				</td>
+			</tr>
+			<!-- </tbody> -->
+		</table>
+		<br>
+		<div style="font-size: 13px" id="countRow"></div>
+
+		<div id="pager1"></div>
+		<br>
+		<div style="width:1000" id='MyGrid'>
+		<div style="background-color:grey; color:white">Result</div>
+		<div id="modal2" align="center" style="display:none;">
+	            <img id="loader2" src="images/ajax-loader.gif" />
+	        </div>
+		</div>
+			
+		<!-- <p>The filter results in <span id="FilterCount"></span> of <span id="TotalCount"></span> rows returned.</p> -->
+		<!-- <ul id="FilterResults"></ul> -->
+	</body>
+</html>	

@@ -1,0 +1,105 @@
+{
+    "functionNames": [
+		{"dataField":"ClientCounterparty","dataText":"Client/Counterparty"},
+		{"dataField":"GroupMaintenance","dataText":"Group Maintenance"},
+		{"dataField":"AccountMaintenance","dataText":"Account Maintenance"},
+		{"dataField":"LimitType","dataText":"Limit Type"},
+		{"dataField":"ExposureTree","dataText":"Exposure Tree"}
+    ],
+	
+	"ClientCounterparty": [
+		{"dataField":"ccdID","dataText":"CCD ID"},
+		{"dataField":"legalPartyEngName","dataText":"Client/Counterparty Name"},
+		{"dataField":"legalPartyChiName","dataText":"Client/Counterparty Chinese Name"},
+		{"dataField":"legalPartyCat","dataText":"Client/Counterparty Category"},
+		{"dataField":"latestFinRptDate","dataText":"Latest Finiancial Report Date"},
+		{"dataField":"holdingType","dataText":"Operating/Investment Holding"},
+		{"dataField":"excludeDealInternalCpty","dataText":"Exclude Deals with Internal Counterparty"},
+		{"dataField":"isHkmaAuthInst","dataText":"Is HKMA Authorized Institution"},
+		{"dataField":"companyDesc","dataText":"Company Description"},
+		{"dataField":"companyBizRelStrategy","dataText":"Company Business Relationship & Strategy"},
+		{"dataField":"bizRiskProfile","dataText":"Company Risk Analysis - Business Risk Profile"},
+		{"dataField":"finRiskProfile","dataText":"Company Risk Analysis - Financial Risk Profile"},
+		{"dataField":"companyMarketInd","dataText":"Company Market Indicators"},
+		{"dataField":"companyCrRecomStrategy","dataText":"Company Credit Recommendation & Strategy"},
+		{"dataField":"companyReference","dataText":"Company Reference"},
+		{"dataField":"domicile","dataText":"Domicile"},
+		{"dataField":"nationality","dataText":"Nationality"},
+		{"dataField":"natureOfBiz","dataText":"Business Nature"},
+		{"dataField":"annualIncome","dataText":"Annual Income"},
+		{"dataField":"estimateNetWorth","dataText":"Estimate Net Worth"},
+		{"dataField":"clientStockCode","dataText":"Stock Code (for listed company)"},		
+		{"dataField":"aumBOCIGrp","dataText":"AUM in BOCI Group"},
+		{"dataField":"lastApproveCondRem","dataText":"Last Credit Check Approved Condition Remark"},
+		{"dataField":"countryRisk","dataText":"Country of Risk"},
+		{"dataField":"industryGroup","dataText":"Industry Group"},
+		{"dataField":"industrySubGroup","dataText":"Industry Sub-Group"},
+		{"dataField":"industrySector","dataText":"Industry Sector"},
+		{"dataField":"marketCapitalizaion","dataText":"Market Capitalization"},
+		{"dataField":"creditRatingInt","dataText":"Internal Credit Rating (Basel)"},
+		{"dataField":"creditRatingSnp","dataText":"Credit Rating - S&P"},
+		{"dataField":"creditRatingMoodys","dataText":"Credit Rating - Moody's"},
+		{"dataField":"creditRatingFitch","dataText":"Credit Rating - Fitch"},
+		{"dataField":"creditRatingForApprove","dataText":"Risk Rating - for Approval"},
+		{"dataField":"bbgTicker","dataText":"BBG Ticker"},
+		{"dataField":"bbgCompanyId","dataText":"BBG Company ID"},
+		{"dataField":"remarks","dataText":"Remarks"},
+		{"dataField":"externalKey1","dataText":"External Key ID #1"},
+		{"dataField":"externalKey2","dataText":"External Key ID #2"},
+		{"dataField":"externalKey3","dataText":"External Key ID #3"},
+		{"dataField":"externalKey4","dataText":"External Key ID #4"},
+		{"dataField":"externalKey5","dataText":"External Key ID #5"},
+		{"dataField":"externalKey6","dataText":"External Key ID #6"},
+		{"dataField":"externalKey7","dataText":"External Key ID #7"},
+		{"dataField":"externalKey8","dataText":"External Key ID #8"},
+		{"dataField":"externalKey9","dataText":"External Key ID #9"},
+		{"dataField":"externalKey10","dataText":"External Key ID #10"}
+	],
+	
+	"GroupMaintenance": [
+		{"dataField":"remarks","dataText":"Remarks"},
+		{"dataField":"externalKey1","dataText":"External Key ID #1"},
+		{"dataField":"externalKey2","dataText":"External Key ID #2"},
+		{"dataField":"externalKey3","dataText":"External Key ID #3"},
+		{"dataField":"externalKey4","dataText":"External Key ID #4"},
+		{"dataField":"externalKey5","dataText":"External Key ID #5"},
+		{"dataField":"externalKey6","dataText":"External Key ID #6"},
+		{"dataField":"externalKey7","dataText":"External Key ID #7"},
+		{"dataField":"externalKey8","dataText":"External Key ID #8"},
+		{"dataField":"externalKey9","dataText":"External Key ID #9"},
+		{"dataField":"externalKey10","dataText":"External Key ID #10"}
+	],
+	
+	"AccountMaintenance": [
+		{"dataField":"remarks","dataText":"Remarks"},
+		{"dataField":"externalKey1","dataText":"External Key ID #1"},
+		{"dataField":"externalKey2","dataText":"External Key ID #2"},
+		{"dataField":"externalKey3","dataText":"External Key ID #3"},
+		{"dataField":"externalKey4","dataText":"External Key ID #4"},
+		{"dataField":"externalKey5","dataText":"External Key ID #5"},
+		{"dataField":"externalKey6","dataText":"External Key ID #6"},
+		{"dataField":"externalKey7","dataText":"External Key ID #7"},
+		{"dataField":"externalKey8","dataText":"External Key ID #8"},
+		{"dataField":"externalKey9","dataText":"External Key ID #9"},
+		{"dataField":"externalKey10","dataText":"External Key ID #10"}
+	],
+	
+	"LimitType": [
+		{"dataField":"remarks","dataText":"Remarks"},
+		{"dataField":"externalKey6","dataText":"External Key ID #6"},
+		{"dataField":"externalKey7","dataText":"External Key ID #7"},
+		{"dataField":"externalKey8","dataText":"External Key ID #8"},
+		{"dataField":"externalKey9","dataText":"External Key ID #9"},
+		{"dataField":"externalKey10","dataText":"External Key ID #10"}
+	],
+	
+	"ExposureTree": [
+		{"dataField":"remarks","dataText":"Remarks"},
+		{"dataField":"externalKey1","dataText":"External Key ID #1"},
+		{"dataField":"externalKey2","dataText":"External Key ID #2"},
+		{"dataField":"externalKey3","dataText":"External Key ID #3"},
+		{"dataField":"externalKey4","dataText":"External Key ID #4"},		
+		{"dataField":"externalKey10","dataText":"External Key ID #10"}
+	]
+}
+

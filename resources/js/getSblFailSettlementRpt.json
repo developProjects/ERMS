@@ -1,0 +1,24 @@
+[{
+	"id": {
+		"tradeRef": "1",
+		"lenderCustId": "2",
+		"borrowerCustId": "3"
+	},
+	"lenderCustName": "4",
+	"borrowerCustName": "5",
+	"aeCode": "6",
+	"cashStockType": "7",
+	"tranType": "8",
+	"failCode": "9",
+	"stockValue": 10,
+	"stockCode": "11",
+	"stockQty": 12,
+	"noOfDaysDailSettle": 13,
+	"riskMgtRemarks": "14",
+	"expSettleDate": -2207894752000,
+	"lastUpdateBy": "16",
+	"lastUpdateDt": -2207635552000,
+	"tradeRef": "1",
+	"lenderCustId": "2",
+	"borrowerCustId": "3"
+}]

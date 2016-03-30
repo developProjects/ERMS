@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+<title></title>
+<link
+	href="http://cdn.kendostatic.com/2014.1.416/styles/kendo.common.min.css"
+	rel="stylesheet" />
+<link
+	href="http://cdn.kendostatic.com/2014.1.416/styles/kendo.default.min.css"
+	rel="stylesheet" />
+<script src="http://cdn.kendostatic.com/2014.1.416/js/jquery.min.js"></script>
+<script src="http://cdn.kendostatic.com/2014.1.416/js/kendo.all.min.js"></script>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+</head>
+<body ngapp="">
+
+	<div id="example" class="k-content">
+		<form id="login" ng-controller="MyCtrl">
+			<table style="border: 1px solid black;">
+				<thead>
+					<tr>
+						<td colspan="2" style="background-color: #990000;"><font
+							color="#fff">Login</font></font></td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><label for="username" class="required">User Name</label></td>
+						<td><input type="text" id="username" name="username"
+							class="k-textbox" placeholder="user name" required
+							validationMessage="Please enter {0}" /></td>
+						</li>
+					</tr>
+					<tr>
+						<td><label for="password" class="required">Password</label></td>
+						<td><input type="password" id="password" name="password"
+							class="k-textbox" placeholder="password" required
+							validationMessage="Please enter {0}" /></td>
+					<tr>
+						<td><label for="domain" class="required">Domain</label></td>
+						<td><select name="domain" id="domain" required
+							data-required-msg="Select your domain">
+								<option>test1</option>
+								<option>test2</option>
+								<option>test3</option>
+						</select> <span class="k-invalid-msg" data-for="domain"></span></td>
+					</tr>
+
+
+					<tr>
+						<td class="accept">
+							<button class="k-button" type="submit">Login</button>
+						</td>
+
+						<td class="status"></td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+
+		<style scoped>
+.k-textbox {
+	width: 20.8em;
+}
+
+#login {
+	width: 100%;
+	height: 100%;
+	margin: 30px auto;
+	padding: 10px 20px 20px 170px;
+}
+
+#login h3 {
+	font-weight: normal;
+	font-size: 1.4em;
+	border-bottom: 1px solid #ccc;
+}
+
+#login ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#login li {
+	margin: 10px 0 0 0;
+}
+
+label {
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+}
+
+.required {
+	font-weight: bold;
+}
+
+.accept {
+	padding-left: 90px;
+}
+
+.status {
+	padding-left: 90px;
+	padding-bottom: 550;
+}
+
+.valid {
+	color: green;
+}
+
+.invalid {
+	color: red;
+}
+
+span.k-tooltip {
+	margin-left: 1px;
+}
+</style>
+
+		<script>
+                $(document).ready(function() {
+                     
+
+                    var validator = $("#login").kendoValidator().data("kendoValidator"),
+                    status = $(".status");
+
+                    $("form").submit(function(event) {
+                        event.preventDefault();
+                        if (validator.validate()) {
+                            status.text("Successfully registered !")
+                                .removeClass("invalid")
+                                .addClass("valid");
+				
+                        } else {
+                            status.text("Error !!! There is invalid data in the form.")
+                                .removeClass("valid")
+                                .addClass("invalid");
+                        }
+                    });
+                });
+
+            </script>
+	</div>
+
+
+</body>
+</html>

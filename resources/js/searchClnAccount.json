@@ -1,0 +1,12 @@
+[{
+	"ccdId": "PCC12345678",
+	"ccdName": "PATRICKCHEUNG",
+	"acctId": "PP1234",
+	"acctName": "TEST",
+	"displaySubAcctNo": null,
+	"subAcctId": "ALL",
+	"bizUnit": "PB",
+	"bookEntity": "HK",
+	"dataSourceAppId": "NOVA",
+	"acctStatus": "I"
+}]

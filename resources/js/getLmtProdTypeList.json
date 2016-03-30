@@ -1,0 +1,29 @@
+[
+	{
+		"lmtType": "margin",
+		"lmtDesc": "Margin",
+		"product": [
+			{
+			"prodType": "margin",
+			"prodTypeDesc": "Margin"
+			}, 
+			{
+				"prodType": "bond",
+				"prodTypeDesc": "Bond"
+			}
+		]
+	}, 
+	{
+		"lmtType": "all",
+		"lmtDesc": "ALL",
+		"product": [
+			{
+				"prodType": "allmargin",
+				"prodTypeDesc": "All Margin"
+			}, {
+				"prodType": "allbond",
+				"prodTypeDesc": "All Bond"
+			}
+		]
+	}
+]

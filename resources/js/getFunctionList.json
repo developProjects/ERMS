@@ -1,0 +1,505 @@
+[{
+	"funcId": "ERMS_MAR_CALL",
+	"funcName": "PB/ISD Margin Call",
+	"searchFields": [{
+		"null": "null"
+	}]
+}, {
+	"funcId": "SCN_LMT_MAIN",
+	"funcName": "Limit Application Maintenance",
+	"searchFields": [{
+		"null": "null"
+	}]
+}, {
+	"funcId": "LIMIT_TYPE_MAIN",
+	"funcName": "Limit Maintenance",
+	"searchFields": [{
+		"null": "null"
+	}]
+}, {
+	"funcId": "ERMS_MAIN_CROSS_CCY_HAIRCUT",
+	"funcName": "Cross Currency Haircut Maintenance",
+	"searchFields": [{
+		"null": "null"
+	}]
+}, {
+	"funcId": "ERMS_MAIN_CROSS_COL_GROUP",
+	"funcName": "Cross Collateralization Group Maintenance",
+	"searchFields": [{
+		"null": "null"
+	}]
+}, {
+	"funcId": "ACC_DTL_MAIN",
+	"funcName": "Account Detail Maintenance",
+	"searchFields": [{
+		"dataText": "CCD ID",
+		"dataField": "ccdId"
+	}, {
+		"dataText": "CMD Client ID",
+		"dataField": "cmdClientId"
+	}, {
+		"dataText": "Client/Counterparty Name",
+		"dataField": "clientCounterparty"
+	}, {
+		"dataText": "Account No.",
+		"dataField": "accountNo"
+	}, {
+		"dataText": "Account - Name",
+		"dataField": "accountName"
+	}, {
+		"dataText": "Account - Name (Chi)",
+		"dataField": "accountChiName"
+	}, {
+		"dataText": "Account - Client Type",
+		"dataField": "accClientType"
+	}, {
+		"dataText": "Acc - is Joint (Y/N)",
+		"dataField": "jointAcc"
+	}, {
+		"dataText": "Acc - Acc Type",
+		"dataField": "accType"
+	}, {
+		"dataText": "Acc - Open Date",
+		"dataField": "accOpenDate"
+	}, {
+		"dataText": "Acc - Status",
+		"dataField": "accStatus"
+	}, {
+		"dataText": "Acc - Entity",
+		"dataField": "accEntity"
+	}, {
+		"dataText": "Acc - Biz Unit",
+		"dataField": "accBizUnit"
+	}, {
+		"dataText": "Acc - Sale Code",
+		"dataField": "accSaleCode"
+	}, {
+		"dataText": "Acc - Sale Name",
+		"dataField": "accSaleName"
+	}, {
+		"dataText": "Acc - Dept Code",
+		"dataField": "accDeptCode"
+	}, {
+		"dataText": "Acc - Source System",
+		"dataField": "accSrcSystem"
+	}, {
+		"dataText": "Entity of Guarantee In Favor",
+		"dataField": "entityGuaranteeFavor"
+	}, {
+		"dataText": "Country of incorportation of ultimate parent",
+		"dataField": "countryIncorpUltiParent"
+	}, {
+		"dataText": "Ultimate Parent Name",
+		"dataField": "ultiParentName"
+	}, {
+		"dataText": "Revenue generated to BOCIS (Nova) - Turnover MTD",
+		"dataField": "novaMTDTurnover"
+	}, {
+		"dataText": "Revenue generated to BOCIS (Nova) - Turnover YTD",
+		"dataField": "novaYTDTurnover"
+	}, {
+		"dataText": "Revenue generated to BOCIS (Nova) - Net Commission MTD",
+		"dataField": "novaMTDNetComm"
+	}, {
+		"dataText": "Revenue generated to BOCIS (Nova) - Net Commission YTD",
+		"dataField": "novaYTDNetComm"
+	}, {
+		"dataText": "Revenue generated to BOCIS (Nova) - Gross Commission MTD",
+		"dataField": "novaMTDGrossComm"
+	}, {
+		"dataText": "Revenue generated to BOCIS (NOVA) - Gross Commission YTD",
+		"dataField": "novaYTDGrossComm"
+	}, {
+		"dataText": "Revenue generated to BOCIS (Nova) - Margin Interest MTD",
+		"dataField": "novaMTDMarginInt"
+	}, {
+		"dataText": "Revenue generated to BOCIS (Nova) - Margin Interest YTD",
+		"dataField": "novaYTDMarginInt"
+	}, {
+		"dataText": "Revenue generated to BOCIS (Nova) - IPO Interest YTD",
+		"dataField": "novaYTDIPOInt"
+	}, {
+		"dataText": "External Key ID #1",
+		"dataField": "externalKeyId1"
+	}, {
+		"dataText": "External Key ID #2",
+		"dataField": "externalKeyId2"
+	}, {
+		"dataText": "External Key ID #3",
+		"dataField": "externalKeyId3"
+	}, {
+		"dataText": "External Key ID #4",
+		"dataField": "externalKeyId4"
+	}, {
+		"dataText": "External Key ID #5",
+		"dataField": "externalKeyId5"
+	}, {
+		"dataText": "External Key ID #6",
+		"dataField": "externalKeyId6"
+	}, {
+		"dataText": "External Key ID #7",
+		"dataField": "externalKeyId7"
+	}, {
+		"dataText": "External Key ID #8",
+		"dataField": "externalKeyId8"
+	}, {
+		"dataText": "External Key ID #9",
+		"dataField": "externalKeyId9"
+	}, {
+		"dataText": "External Key ID #10",
+		"dataField": "externalKeyId10"
+	}, {
+		"dataText": "Created By",
+		"dataField": "createdBy"
+	}, {
+		"dataText": "Created At ",
+		"dataField": "createdAt"
+	}, {
+		"dataText": "Updated By",
+		"dataField": "updatedBy"
+	}, {
+		"dataText": "Updated At",
+		"dataField": "updatedAt"
+	}, {
+		"dataText": "Verified By",
+		"dataField": "verifiedBy"
+	}, {
+		"dataText": "Verified At",
+		"dataField": "verifiedAt"
+	}, {
+		"dataText": "Status",
+		"dataField": "status"
+	}, {
+		"dataText": "Remarks",
+		"dataField": "remarks"
+	}]
+}, {
+	"funcId": "GP_DTL_MAIN",
+	"funcName": "RMD Group Maintenance",
+	"searchFields": [{
+		"dataText": "Group ID",
+		"dataField": "groupId"
+	}, {
+		"dataText": "Group Type",
+		"dataField": "groupType"
+	}, {
+		"dataText": "Group Name",
+		"dataField": "groupName"
+	}, {
+		"dataText": "Group Name in Chinese",
+		"dataField": "groupNameInChinese"
+	}, {
+		"dataText": "BOC Group ID",
+		"dataField": "bocGroupId"
+	}, {
+		"dataText": "Responsible Risk Officer",
+		"dataField": "responsibleRiskOfficer"
+	}, {
+		"dataText": "Business Unit of Responsible Risk Officer",
+		"dataField": "businessUnitOfResponsibleRiskOfficer"
+	}, {
+		"dataText": "Next Review Date",
+		"dataField": "nextReviewDate",
+		"dateFormat": "true"
+	}, {
+		"dataText": "Initial Onboard Date",
+		"dataField": "initialOnboardDate",
+		"dateFormat": "true"
+	}, {
+		"dataText": "Latest Financial Report Date",
+		"dataField": "latestFinancialReportDate",
+		"dateFormat": "true"
+	}, {
+		"dataText": "Domicile",
+		"dataField": "domicile"
+	}, {
+		"dataText": "Country of Risk",
+		"dataField": "countryOfRisk"
+	}, {
+		"dataText": "Industry Group",
+		"dataField": "industryGroup"
+	}, {
+		"dataText": "Industry Sub-Group",
+		"dataField": "industrySubGroup"
+	}, {
+		"dataText": "Industry Sector",
+		"dataField": "industrySector"
+	}, {
+		"dataText": "Internal Credit Rating (Basel)",
+		"dataField": "internalCreditRating"
+	}, {
+		"dataText": "Market Capitalization",
+		"dataField": "marketCapitalization"
+	}, {
+		"dataText": "Credit Rating - S&P",
+		"dataField": "creditRatingSNP"
+	}, {
+		"dataText": "Credit Rating - Moody's",
+		"dataField": "creditRatingMoodys"
+	}, {
+		"dataText": "Credit Rating - Fitch",
+		"dataField": "creditRatingFitch"
+	}, {
+		"dataText": "Risk  Rating ¨C for Approval",
+		"dataField": "riskRatingForApproval"
+	}, {
+		"dataText": "Overall Loan Classification",
+		"dataField": "overallLoanClassification"
+	}, {
+		"dataText": "BBG Ticker",
+		"dataField": "bbgTicker"
+	}, {
+		"dataText": "Remarks",
+		"dataField": "remarks"
+	}, {
+		"dataText": "External Key ID #1",
+		"dataField": "externalKeyId1"
+	}, {
+		"dataText": "External Key ID #2",
+		"dataField": "externalKeyId2"
+	}, {
+		"dataText": "External Key ID #3",
+		"dataField": "externalKeyId3"
+	}, {
+		"dataText": "External Key ID #4",
+		"dataField": "externalKeyId4"
+	}, {
+		"dataText": "External Key ID #5",
+		"dataField": "externalKeyId5"
+	}, {
+		"dataText": "External Key ID #6",
+		"dataField": "externalKeyId6"
+	}, {
+		"dataText": "External Key ID #7",
+		"dataField": "externalKeyId7"
+	}, {
+		"dataText": "External Key ID #8",
+		"dataField": "externalKeyId8"
+	}, {
+		"dataText": "External Key ID #9",
+		"dataField": "externalKeyId9"
+	}, {
+		"dataText": "External Key ID #10",
+		"dataField": "externalKeyId10"
+	}, {
+		"dataText": "CCD ID",
+		"dataField": "ccdId"
+	}, {
+		"dataText": "CMD Client ID",
+		"dataField": "cmdClientId"
+	}, {
+		"dataText": "Client/Counterparty",
+		"dataField": "clientCounterparty"
+	}, {
+		"dataText": "Account No.",
+		"dataField": "accountNo"
+	}, {
+		"dataText": "Sub-acc",
+		"dataField": "subAcc"
+	}, {
+		"dataText": "Account - Name",
+		"dataField": "accountName"
+	}, {
+		"dataText": "Acc - Biz Unit",
+		"dataField": "accBizUnit"
+	}, {
+		"dataText": "Created By",
+		"dataField": "createdBy"
+	}, {
+		"dataText": "Created At ",
+		"dataField": "createdAt",
+		"dateFormat": "true"
+	}, {
+		"dataText": "Updated By",
+		"dataField": "updatedBy"
+	}, {
+		"dataText": "Updated At",
+		"dataField": "updatedAt",
+		"dateFormat": "true"
+	}, {
+		"dataText": "Verified By",
+		"dataField": "verifiedBy"
+	}, {
+		"dataText": "Verified At",
+		"dataField": "verifiedAt",
+		"dateFormat": "true"
+	}, {
+		"dataText": "Status",
+		"dataField": "status"
+	}, {
+		"dataText": "CR Remarks",
+		"dataField": "remarks"
+	}]
+}, {
+	"funcId": "MAIN_MON_RUL",
+	"funcName": "Product Limit Monitor Maintenance",
+	"searchFields": [{
+		"null": "null"
+	}]
+}, {
+	"funcId": "CLN_CPT_DTL_MAIN",
+	"funcName": "Client & Counterparty Detail Maintenance",
+	"searchFields": [{
+		"dataText": "CCD ID",
+		"dataField": "ccdId"
+	}, {
+		"dataText": "Client/Counterparty Name",
+		"dataField": "clientCounterpartyName"
+	}, {
+		"dataText": "Client/Counterparty Chinese Name",
+		"dataField": "clientCounterpartyChineseName"
+	}, {
+		"dataText": "Client/Counterparty Category",
+		"dataField": "clientCounterpartyCategory"
+	}, {
+		"dataText": "Lastes Finiancial Report Date",
+		"dataField": "lastesFiniancialReportDate"
+	}, {
+		"dataText": "Operating/Investment Holding",
+		"dataField": "operatingInvestmentHolding"
+	}, {
+		"dataText": "Exclude Deals with Internal Counterparty",
+		"dataField": "excludeDealsWithInternalCounterparty"
+	}, {
+		"dataText": "Is HKMA Authorized Institution",
+		"dataField": "isHkmaAuthorizedInstitution"
+	}, {
+		"dataText": "Company Description",
+		"dataField": "companyDescription"
+	}, {
+		"dataText": "Company Business Relationship & Strategy",
+		"dataField": "companyBusinessRelationshipStrategy"
+	}, {
+		"dataText": "Company Risk Analysis - Business Risk Profile",
+		"dataField": "companyRiskAnalysisBusinessRiskProfile"
+	}, {
+		"dataText": "Company Risk Analysis - Financial Risk Profile",
+		"dataField": "companyRiskAnalysisFinancialRiskProfile"
+	}, {
+		"dataText": "Company Market Indicators",
+		"dataField": "companyMarketIndicators"
+	}, {
+		"dataText": "Company Credit Recommendation & Strategy",
+		"dataField": "companyCreditRecommendationStrategy"
+	}, {
+		"dataText": "Company Reference",
+		"dataField": "companyReference"
+	}, {
+		"dataText": "Domicile",
+		"dataField": "domicile"
+	}, {
+		"dataText": "Nationality",
+		"dataField": "nationality"
+	}, {
+		"dataText": "Business Nature",
+		"dataField": "businessNature"
+	}, {
+		"dataText": "Annual Income",
+		"dataField": "annualIncome"
+	}, {
+		"dataText": "Estimate Net Worth",
+		"dataField": "estimateNetWorth"
+	}, {
+		"dataText": "Stock Code (for listed company)",
+		"dataField": "stockCode"
+	}, {
+		"dataText": "AUM in BOCI Group",
+		"dataField": "aumInBociGroup"
+	}, {
+		"dataText": "Last Credit Check Approved Condition Remark",
+		"dataField": "lastCreditCheck"
+	}, {
+		"dataText": "Country of Risk",
+		"dataField": "countryOfRisk"
+	}, {
+		"dataText": "Industry Group",
+		"dataField": "industryGroup"
+	}, {
+		"dataText": "Industry Sub-Group",
+		"dataField": "industrySubGroup"
+	}, {
+		"dataText": "Industry Sector",
+		"dataField": "industrySector"
+	}, {
+		"dataText": "Market Capitalization",
+		"dataField": "marketCapitalization"
+	}, {
+		"dataText": "Internal Credit Rating (Basel)",
+		"dataField": "internalCreditRating"
+	}, {
+		"dataText": "Credit Rating - S&P",
+		"dataField": "creditRatingSNP"
+	}, {
+		"dataText": "Credit Rating - Moody's",
+		"dataField": "creditRatingMoodys"
+	}, {
+		"dataText": "Credit Rating - Fitch",
+		"dataField": "creditRatingFitch"
+	}, {
+		"dataText": "Risk Rating - for Approval",
+		"dataField": "riskRatingForApproval"
+	}, {
+		"dataText": "BBG Ticker",
+		"dataField": "bbgTicker"
+	}, {
+		"dataText": "BBG Company ID",
+		"dataField": "bbgCompanyId"
+	}, {
+		"dataText": "Remarks",
+		"dataField": "remarks"
+	}, {
+		"dataText": "External Key ID #1",
+		"dataField": "externalKeyId1"
+	}, {
+		"dataText": "External Key ID #2",
+		"dataField": "externalKeyId2"
+	}, {
+		"dataText": "External Key ID #3",
+		"dataField": "externalKeyId3"
+	}, {
+		"dataText": "External Key ID #4",
+		"dataField": "externalKeyId4"
+	}, {
+		"dataText": "External Key ID #5",
+		"dataField": "externalKeyId5"
+	}, {
+		"dataText": "External Key ID #6",
+		"dataField": "externalKeyId6"
+	}, {
+		"dataText": "External Key ID #7",
+		"dataField": "externalKeyId7"
+	}, {
+		"dataText": "External Key ID #8",
+		"dataField": "externalKeyId8"
+	}, {
+		"dataText": "External Key ID #9",
+		"dataField": "externalKeyId9"
+	}, {
+		"dataText": "External Key ID #10",
+		"dataField": "externalKeyId10"
+	}, {
+		"dataText": "Created By",
+		"dataField": "createdBy"
+	}, {
+		"dataText": "Created At ",
+		"dataField": "createdAt"
+	}, {
+		"dataText": "Updated By",
+		"dataField": "updatedBy"
+	}, {
+		"dataText": "Updated At",
+		"dataField": "updatedAt"
+	}, {
+		"dataText": "Verified By",
+		"dataField": "verifiedBy"
+	}, {
+		"dataText": "Verified At",
+		"dataField": "verifiedAt"
+	}, {
+		"dataText": "Status",
+		"dataField": "status"
+	}, {
+		"dataText": "CR Remarks",
+		"dataField": "crRemarks"
+	}]
+}]

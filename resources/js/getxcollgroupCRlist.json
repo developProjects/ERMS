@@ -1,0 +1,12 @@
+[{
+	"action": "V|E|X",
+	"status": "Pending for Verification",
+	"total": 1,
+	"crBy": null,
+	"crId": "CR000000000000000002",
+	"xcollGroupId": "G10_000002",
+	"xcollGroupType": "G10_Chargor-Borrower Group",
+	"xcollGroupName": "PP_Xcoll_Group_Name3",
+	"lastUpdateBy": "RISKADMIN",
+	"lastUpdateDt": 1454667854000
+}]

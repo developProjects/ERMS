@@ -1,0 +1,13 @@
+[{
+		"id": {
+			"crId": "1",
+			"lmtTypeCode": "LEE",
+			"bookEntity": "A",
+			"boardApprLmtCcy": "HKD"
+		},
+		"boardApprLmtAmt": 123,
+		"createBy": "Tevez",
+		"createDt": null,
+		"lastUpdateBy": "HKDM\\TONYYK.WONG",
+		"lastUpdateDt": 1452509374000
+}]

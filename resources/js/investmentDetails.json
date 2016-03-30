@@ -1,0 +1,53 @@
+{
+	"clientName": "tester",
+	"projectName": "test project3",
+	"consortium": "2",
+	"intInvesteeName": "21",
+	"clientCountryRisk": "2",
+	"clientIndustryGroup": "1",
+	"investmentType": "22",
+	"fundUsage": "23",
+	"disburseCcy": "24",
+	"disburseAmt": 25,
+	"disburseDate": -2206942602000,
+	"initNoOfShares": 27,
+	"initShareholdingRatio": 28,
+	"osBalOfSharesHeld": 29,
+	"osBalOfShareholdingRatio": 30,
+	"entryPrice": 31,
+	"commRedemptionPeriod": -2206424202000,
+	"exitDate": -2206337802000,
+	"bookEntity": "34",
+	"noOfBoardSeat": 35,
+	"noOfBoardObserver": 36,
+	"investmentClass": "37",
+	"peInvestmentApprovalResult": [{
+		"apprLevel": "1",
+		"apprDate": -2209017600000
+	}, {
+		"apprLevel": "2",
+		"apprDate": -2209017600000
+	}],
+	"peValuationReportListDaily": -2209017600000,
+	"peValuationReportListMonthly": -2209017600000,
+	"peValuationReportNonList": -2209017600000,
+	"peInvestmentGuarantorResult": [{
+		"name": "2",
+		"guarItem": null,
+		"ccdId": "1",
+		"guarShareInBorrower": 3,
+		"nationality": "4",
+		"guarCcy": "5",
+		"guarAmt": 6,
+		"relWBorrower": "7"
+	}, {
+		"name": "2",
+		"guarItem": null,
+		"ccdId": "2",
+		"guarShareInBorrower": 3,
+		"nationality": "4",
+		"guarCcy": "5",
+		"guarAmt": 6,
+		"relWBorrower": "7"
+	}]
+}

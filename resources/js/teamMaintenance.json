@@ -1,0 +1,67 @@
+[{
+	"id": {
+		"teamCode": "CA",
+		"bizUnit": "ESR-IST"
+	},
+	"status": "Inactive",
+	"createBy": "Tevez",
+	"createDt": 1449427876000,
+	"lastUpdateBy": "Tevez",
+	"lastUpdateDt": 1315848420988,
+	"userId":""
+}, {
+	"id": {
+		"teamCode": "PB Credit",
+		"bizUnit": "ESR-ISD"
+	},
+	"status": "Inactive",
+	"createBy": "Tevez",
+	"createDt": 1449427876000,
+	"lastUpdateBy": "Tevez",
+	"lastUpdateDt": 1449474225000,
+	"userId":""
+}, {
+	"id": {
+		"teamCode": "PB Credit",
+		"bizUnit": "ESR-IST"
+	},
+	"status": "Active",
+	"createBy": "Tevez",
+	"createDt": 1449427876000,
+	"lastUpdateBy": "Tevez",
+	"lastUpdateDt": 1449427876000,
+	"userId":""
+}, {
+	"id": {
+		"teamCode": "CA",
+		"bizUnit": "PB"
+	},
+	"status": "Inactive",
+	"createBy": "Tevez",
+	"createDt": 1449427876000,
+	"lastUpdateBy": "Tevez",
+	"lastUpdateDt": 1449571256000,
+	"userId":""
+}, {
+	"id": {
+		"teamCode": "PB Credit",
+		"bizUnit": "PB"
+	},
+	"status": "Inactive",
+	"createBy": "Tevez",
+	"createDt": null,
+	"lastUpdateBy": "Tevez",
+	"lastUpdateDt": 1450334931000,
+	"userId":""
+}, {
+	"id": {
+		"teamCode": "PB Credit",
+		"bizUnit": "Ha ha"
+	},
+	"status": "Inactive",
+	"createBy": "Tevez",
+	"createDt": 1450246955000,
+	"lastUpdateBy": "Tevez",
+	"lastUpdateDt": 1450246955000,
+	"userId":""
+}]

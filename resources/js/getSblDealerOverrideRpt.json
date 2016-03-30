@@ -1,0 +1,21 @@
+[{
+	"id": {
+		"reportDate": 1456675200000,
+		"tradeRef": "1",
+		"custId": "2"
+	},
+	"custName": "3",
+	"dealerCode": "4",
+	"overriddenField": "5",
+	"orgMarginRatio": 6,
+	"ovrMarginRatio": 7,
+	"orgHaircutRatio": 8,
+	"ovrHaircutRatio": 9,
+	"dealerComment": "10",
+	"riskMgtRemarks": "1",
+	"lastUpdateBy": "11",
+	"lastUpdateDt": -2209104000000,
+	"reportDate": 1456675200000,
+	"custId": "2",
+	"tradeRef": "1"
+}]

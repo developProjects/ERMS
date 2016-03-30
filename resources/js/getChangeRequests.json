@@ -1,0 +1,22 @@
+[
+	{
+		"action":"V|",
+		"total":1,
+		"lastUpdateBy":null,
+		"crId":"CR00001",
+		"groupTypeDesc":"Age Group",
+		"rmdGroupDesc":"Over 70",
+		"externalKey1":"aaa",
+		"externalKey2":"ccc",
+		"externalKey3":"xxx",
+		"externalKey4":"aaa",
+		"externalKey5":null,
+		"externalKey6":null,
+		"externalKey7":null,
+		"externalKey8":null,
+		"externalKey9":null,
+		"externalKey10":null,
+		"lastUpdateDt":null,
+		"status":"ACTIVE"
+	}
+]

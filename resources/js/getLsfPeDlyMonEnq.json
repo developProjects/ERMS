@@ -1,0 +1,73 @@
+[{
+	"action": null,
+	"status": null,
+	"total": 6,
+	"crBy": null,
+	"projectName": "GRP01",
+	"clientName": "CC1234",
+	"acctId": "1232",
+	"dailyMonitorRptDate": 1455120000000,
+	"ltvMonitorRptDate": null,
+	"rmdGroupId": "GRP01",
+	"ccdId": "CC1234"
+}, {
+	"action": null,
+	"status": null,
+	"total": 6,
+	"crBy": null,
+	"projectName": "GRP02",
+	"clientName": "CC1234",
+	"acctId": "1231",
+	"dailyMonitorRptDate": 1455120000000,
+	"ltvMonitorRptDate": null,
+	"rmdGroupId": "GRP02",
+	"ccdId": "CC1234"
+}, {
+	"action": null,
+	"status": null,
+	"total": 6,
+	"crBy": null,
+	"projectName": "GRP02",
+	"clientName": "CC1234",
+	"acctId": "1236",
+	"dailyMonitorRptDate": 1455120000000,
+	"ltvMonitorRptDate": null,
+	"rmdGroupId": "GRP02",
+	"ccdId": "CC1234"
+}, {
+	"action": null,
+	"status": null,
+	"total": 6,
+	"crBy": null,
+	"projectName": "GRP01",
+	"clientName": "CC1234",
+	"acctId": "1236",
+	"dailyMonitorRptDate": 1455120000000,
+	"ltvMonitorRptDate": null,
+	"rmdGroupId": "GRP01",
+	"ccdId": "CC1234"
+}, {
+	"action": null,
+	"status": null,
+	"total": 6,
+	"crBy": null,
+	"projectName": "GRP02",
+	"clientName": "CC1234",
+	"acctId": "1232",
+	"dailyMonitorRptDate": 1455120000000,
+	"ltvMonitorRptDate": null,
+	"rmdGroupId": "GRP02",
+	"ccdId": "CC1234"
+}, {
+	"action": null,
+	"status": null,
+	"total": 6,
+	"crBy": null,
+	"projectName": "GRP01",
+	"clientName": "CC1234",
+	"acctId": "1231",
+	"dailyMonitorRptDate": 1455120000000,
+	"ltvMonitorRptDate": null,
+	"rmdGroupId": "GRP01",
+	"ccdId": "CC1234"
+}]
